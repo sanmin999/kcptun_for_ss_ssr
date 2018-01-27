@@ -133,7 +133,15 @@ chmod +x /etc/network/if-pre-up.d/iptables
 ```Bash
     ./kcptun_for_ss_ssr-install.sh update
 ```
-
+##<a name="Update"/>安装git
+```Bash
+apt-get install git
+```
+##<a name="Update"/>更新
+```Bash
+cd shadowsocks-libev-*.*.*
+git submodule update --init --recursive
+```
 ******
 ##<a name="UnInstall"/>卸载
 ```Bash
