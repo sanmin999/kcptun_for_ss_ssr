@@ -4,7 +4,7 @@ export PATH
 #===============================================================================================
 #   System Required:  CentOS Debian or Ubuntu (32bit/64bit)
 #   Description:  A tool to auto-compile & install KCPTUN for SS/SSR on Linux
-#   Intro: https://github.com/onekeyshell/kcptun_for_ss_ssr/issues
+#   Intro: https://github.com/sanmin999/kcptun_for_ss_ssr/issues
 #===============================================================================================
 version="2.0.5"
 if [ $(id -u) != "0" ]; then
@@ -35,15 +35,15 @@ shell_update(){
         fi
     fi
 }
-shell_download_link="https://raw.githubusercontent.com/onekeyshell/kcptun_for_ss_ssr/master/kcptun_for_ss_ssr-install.sh"
-program_version_link="https://raw.githubusercontent.com/onekeyshell/kcptun_for_ss_ssr/master/version.sh"
+shell_download_link="https://raw.githubusercontent.com/sanmin999/kcptun_for_ss_ssr/master/kcptun_for_ss_ssr-install.sh"
+program_version_link="https://raw.githubusercontent.com/sanmin999/kcptun_for_ss_ssr/master/version.sh"
 ss_libev_config="/etc/shadowsocks-libev/config.json"
 ssr_config="/usr/local/shadowsocksR/shadowsocksR.json"
 ssrr_config="/usr/local/shadowsocksrr/user-config.json"
 kcptun_config="/usr/local/kcptun/config.json"
 # Check if user is root
 
-contact_us="https://github.com/onekeyshell/kcptun_for_ss_ssr/issues"
+contact_us="https://github.com/sanmin999/kcptun_for_ss_ssr/issues"
 fun_clangcn(){
     local clear_flag=""
     clear_flag=$1
